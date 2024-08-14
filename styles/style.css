@@ -412,6 +412,88 @@ header{
 }
 /* BMI calculator section styles ends */
 
+/* Payment section styles stats */
+    .payment{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    }
+
+    .payment-title{
+    color: #FFFFFF;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 900;
+    font-size: 3rem;
+    text-align: center;
+    }
+
+    .payment-description{
+    width: 70%;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    }
+
+    .payment-option{
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+    }
+
+    .payment-box {
+    background: #463a3a75;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #29232317;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    }
+
+    .features li{
+    list-style: none;
+    padding-bottom: 20px;
+    color: white;
+    /* opacity: 80%; */
+    }
+
+    .payment-box h2 {
+        color: #FFFFFF;
+        font-style: italic;
+    margin: 0;
+    font-size: 3rem;
+    }
+    
+    .payment-box p {
+    font-size: 1.6rem;
+    font-style: italic;
+    color: lightblue;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    }
+
+    .payment-box button {
+    background-color: royalblue;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin-top: 10px;
+    }
+    
+    .payment-box button:hover {
+    background-color: #0056b3;
+    }
+
+/* Payment section styles ends */
+
+
+
 /* Meet section styles starts */
 .meet-content{
     width: 100%;
