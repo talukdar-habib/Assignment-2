@@ -302,15 +302,7 @@ header{
     width: 80%;
 }
 
-.bmi-chart-title{
-    color: #FFFFFF;
-}
-
-.calculate-bmi-title{
-    color: #FFFFFF;
-}
-
-.calculate-bmi-description{
+.bmi-chart-title, .calculate-bmi-title, .calculate-bmi-description{
     color: #FFFFFF;
 }
 
@@ -419,9 +411,47 @@ header{
 }
 
 .meet-img-container{
-    width: 50%;
+    margin: 0 auto;
+    width: 80%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+}
+.meet-img-container img{
+    width: 100%;
+    border-radius: 18px;
+}
+
+
+
+
+
+/* footer section styles starts */
+.footer{
+    margin-top: 88px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-content{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 66px;
+}
+.footer-column-container{
+    display: flex;
+    width: 100%;
+    gap: 150px;
+}
+.footer-column-container li{
+    list-style: none;
+    color: #FFFFFF;
+}
+
+.fitness-title, .fitness-description, .get-started-title{
+    color: #FFFFFF;
 }
 
 
