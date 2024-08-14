@@ -17,11 +17,18 @@ body{
 /* Nav section styles starts */
 header{
     width: 100%;
+        background: linear-gradient(
+        180deg,
+        rgba(34, 34, 34, 0.8),
+        rgba(119, 119, 119, 0.28),
+        rgba(34, 34, 34, 0.5));
+    
 }
+
 
 .menu-icon{
     display: none;
-    color: #FFFFFF;
+    /* color: #FFFFFF; */
 }
 
 .navbar{
@@ -30,7 +37,7 @@ header{
     width: 80%;
     align-items: center;
     margin: 0 auto;
-    margin-top: 50px;
+    padding-top: 50px;
     /* border: 1px solid rgb(48, 43, 43); */
 }
 
@@ -396,6 +403,7 @@ header{
     height: 54px;
     border: none;
     margin-top: 34px;
+    margin-bottom: 40px;
     border-radius: 42px;
     color: #FFFFFF;
     background-color: #E6533C;
