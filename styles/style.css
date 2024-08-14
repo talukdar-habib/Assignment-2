@@ -283,10 +283,8 @@ header{
 
 .bmi-table-container{
     background-color: rgba(34, 34, 34, 1);
-    /* width: 100%; */
-    height: 480px;
-    
-    border: 1px solid whitesmoke;
+    padding-top: 20px;
+
 }
 
 .bmi-table-content{
@@ -342,7 +340,7 @@ header{
     
 }
 .bmi-form-container{
-    border: 1px solid wheat;
+    /* border: 1px solid wheat; */
     /* width: 100%; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -356,16 +354,33 @@ header{
     /* margin: 13px 183px 13px 20px; */
     color: rgba(255, 255, 255, 0.6);
     background-color: rgba(255, 255, 255, 0.1);
+    padding-left: 20px;
     border: none;
     border-radius: 8px;
 }
 
 .bmi-form-container select{
     padding: 13px 183px 13px 20px;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.3);
     background-color: rgba(255, 255, 255, 0.1);
     border: none;
     border-radius: 8px;
+}
+.select-activity{
+    width: 114%;
+    height: 48px;
+    padding-left: 18px;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.bmi-form-container option{
+    background-color: black;
+    color: #FFFFFF;
+}
+.select-activity option{
+    background-color: black;
+    color: #FFFFFF;
 }
 
 .select-activity{
@@ -403,24 +418,90 @@ header{
 }
 
 .meet-description{
+    width: 45%;
+    margin: 0 auto;
     font-weight: 400;
     font-size: 0.875rem;
     margin-top: 14px;
     margin-bottom: 58px;
     color: rgba(255, 255, 255, 0.5);
 }
-
 .meet-img-container{
-    margin: 0 auto;
     width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-}
-.meet-img-container img{
-    width: 100%;
-    border-radius: 18px;
+    gap: 20px;
 }
 
+.trainer-content{
+    margin-top: 212px;
+    margin-left: 19px;
+}
+
+.people-name{
+    font-weight: 900;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+}
+
+.people-subtitle{
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#jerome{
+    background-image: url("../images/trainer1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 18px;
+    height: 270px;
+}
+#cameron{
+    background-image: url("../images/trainer2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 18px;
+    height: 270px;
+}
+#darrell{
+    background-image: url("../images/trainer3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 18px;
+    height: 270px;
+}
+#dianne{
+    background-image: url("../images/trainer4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 18px;
+    height: 270px;
+}
+#cody{
+    background-image: url("../images/trainer5.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 18px;
+    height: 270px;
+}
+#theresa{
+    background-image: url("../images/trainer6.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 18px;
+    height: 270px;
+}
 
 
 
@@ -552,6 +633,60 @@ footer hr{
         width: 100%;
         margin-left: 0px;
     }
+    /* BMI section */
+    .bmi-container{
+        width: 90%;
+    }
+    .bmi-form-container input{
+        width: 150px;
+    }
+    .bmi-form-container select{
+        padding: 13px 80px 13px 20px;
+    
+    }
+    .select-activity{
+        width: 130%;
+    }
+    .bmi-chart-title{
+        width: 110%;
+        font-size: 1rem;
+    }
+    .calculate-bmi-title{
+        width: 110%;
+        font-size: 1rem;
+        margin-top: 40px;
+    }
+    .bmi-table-content{
+        flex-direction: column;
+    }
+    .btn-calculate{
+        margin-bottom: 20px;
+    }
+    .calculate-bmi{
+        width: 80%;
+    }
+
+/* Meet section */
+.meet-content{
+    width: 100%;
+    text-align: center;
+    margin-top: 66px;
+    line-height: 30px;
+}
+.meet-description{
+    width: 75%;
+}
+.meet-img-container{
+    grid-template-columns: repeat(1, 1fr);
+}
+#jerome{
+    display: none;
+}
+
+#dianne{
+    display: none;
+}
+
 
     /* Footer section */
     .footer-content {
