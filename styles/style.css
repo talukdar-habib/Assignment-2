@@ -431,12 +431,15 @@ header{
     background-color: rgba(255, 255, 255, 0.1);
 }
 
+/* .footer-column{
+    border: 1px solid silver;
+} */
+
 .footer-content{
     width: 80%;
     display: flex;
     justify-content: space-between;
     gap: 20px;
-    align-items: center;
     margin: 0 auto;
     padding-top: 66px;
 }
@@ -447,12 +450,60 @@ header{
 }
 .footer-column-container li{
     list-style: none;
+    text-decoration: none;
+    padding-bottom: 20px;
     color: #FFFFFF;
+}
+
+.footer-column-container li a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
 }
 
 .fitness-title, .fitness-description, .get-started-title{
     color: #FFFFFF;
 }
+.fitness-title{
+    font-weight: 800;
+    font-style: italic;
+    font-size: 4rem;
+    color: #E6533C;
+    margin-bottom: 20px;
+}
+
+.fitness-description{
+    width: 80%;
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.get-started-title{
+    margin-bottom: 40px;
+}
+
+footer hr{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 80px;
+    color: #FFFFFF;
+    opacity: 10%;
+}
+
+.copyright-description{
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
 
 
 
@@ -500,5 +551,15 @@ header{
     .join-now-btn{
         width: 100%;
         margin-left: 0px;
+    }
+
+    /* Footer section */
+    .footer-content {
+        flex-direction: column;
+    }
+    .footer-column-container{
+        flex-direction: column;
+        gap: 10px;
+        padding-top: 20px;
     }
 }
