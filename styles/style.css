@@ -138,11 +138,7 @@ header{
 }
 
 .banner-image{
-    /* height: 100%; */
-    /* width: 50%; */
-    /* text-align: center; */
     max-height: 580px;
-    /* border: 1px solid wheat; */
 }
 /* banner section styles ends */
 
@@ -211,13 +207,11 @@ header{
     margin: 0 auto;
     margin-top: 100px;
     width: 80%;
-    /* height: 370px; */
     padding: 40px;
-    /* height: 500px; */
+
 }
 
 .run-title{
-    /* border: 1px solid snow; */
     width: 60%;
     text-align: left;
     font-weight: 900;
@@ -246,7 +240,6 @@ header{
     background-color: #E6533C;
     cursor: pointer;
     margin: 30px;
-
 }
 
 .run-img{
@@ -260,9 +253,10 @@ header{
 }
 /* run section styles ends */
 
-/* BMI calculator section starts */
+
+/* BMI section starts */
+
 .bmi-container{
-    /* border: 1px solid seashell; */
     width: 50%;
     margin: 0 auto;
     margin-top: 80px;
@@ -303,7 +297,6 @@ header{
 }
 
 .bmi-chart{
-    /* border: 1px solid silver; */
     width: 80%;
 }
 
@@ -340,25 +333,19 @@ header{
 }
 
 .bmi-form {
-    /* display: flex; */
-    /* border: 1px solid rgb(255, 255, 255); */
-    margin-top: 34px;
-    /* width: 100%; */
-    
+    margin-top: 34px; 
 }
+
 .bmi-form-container{
-    /* border: 1px solid wheat; */
-    /* width: 100%; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: end;
-    gap: 10px;
-    /* border-radius: 8px; */   
+    gap: 10px;   
 }
+
 .bmi-form-container input{
     width: 280px;
     height: 48px;
-    /* margin: 13px 183px 13px 20px; */
     color: rgba(255, 255, 255, 0.6);
     background-color: rgba(255, 255, 255, 0.1);
     padding-left: 20px;
@@ -385,13 +372,13 @@ header{
     background-color: black;
     color: #FFFFFF;
 }
+
 .select-activity option{
     background-color: black;
     color: #FFFFFF;
 }
 
 .select-activity{
-    /* padding: 13px 183px 13px 20px; */
     color: rgba(255, 255, 255, 0.6);
     background-color: rgba(255, 255, 255, 0.1);
     border: none;
@@ -410,7 +397,8 @@ header{
     cursor: pointer;
     font-size: 1.125rem;
 }
-/* BMI calculator section styles ends */
+/* BMI section styles ends */
+
 
 /* Payment section styles stats */
     .payment{
@@ -457,7 +445,6 @@ header{
     list-style: none;
     padding-bottom: 20px;
     color: white;
-    /* opacity: 80%; */
     }
 
     .payment-box h2 {
@@ -592,6 +579,7 @@ header{
     border-radius: 18px;
     height: 270px;
 }
+/* Meet section styles ends */
 
 
 
@@ -602,9 +590,6 @@ header{
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-/* .footer-column{
-    border: 1px solid silver;
-} */
 
 .footer-content{
     width: 80%;
@@ -673,13 +658,21 @@ footer hr{
     font-size: 1.2rem;
     color: rgba(255, 255, 255, 0.5);
 }
+/* Footer section styles ends */
+
+
+
+
+
 
 
 
 
 
 /* Media query for small devices */
+
 @media screen and (max-width: 576px) {
+    /* Header (nav & banner) section starts */
     .nav-links{
         display: none;
     }
@@ -696,10 +689,15 @@ footer hr{
         display: contents;
         color: #FFFFFF;
     }
-/* Change section */
+    /* Header (nav & banner) section ends */
+
+    /* Change section starts */
     .change-img-container{
         flex-direction: column;
     }
+    /* Change section ends */
+
+
     /* run section */
     .run-container{
         flex-direction: column;
@@ -723,7 +721,14 @@ footer hr{
         width: 100%;
         margin-left: 0px;
     }
+    /* Run section ends */
+
+
     /* BMI section */
+    .bmi-description{
+        line-height: 25px;
+    }
+
     .bmi-container{
         width: 90%;
     }
@@ -755,30 +760,50 @@ footer hr{
     .calculate-bmi{
         width: 80%;
     }
+    /* BMI section ends */
 
-/* Meet section */
-.meet-content{
+
+    /* Payment section starts*/
+    .payment-title{
+    font-size: 2rem;
+    text-align: center;
+    }
+
+    .payment-description{
+    line-height: 25px;
+    }
+
+    .payment-option{
+        flex-direction: column;
+        width: 90%;
+    }
+    /* Payment section ends */
+
+
+    /* Meet section starts */
+    .meet-content{
     width: 100%;
     text-align: center;
     margin-top: 66px;
     line-height: 30px;
-}
-.meet-description{
+    }
+    .meet-description{
     width: 75%;
-}
-.meet-img-container{
+    }
+    .meet-img-container{
     grid-template-columns: repeat(1, 1fr);
-}
-#jerome{
+    }
+    #jerome{
     display: none;
-}
+    }
 
-#dianne{
+    #dianne{
     display: none;
-}
+    }
+    /* Meet section ends */
 
 
-    /* Footer section */
+    /* Footer section starts */
     .footer-content {
         flex-direction: column;
     }
@@ -787,4 +812,5 @@ footer hr{
         gap: 10px;
         padding-top: 20px;
     }
+    /* Footer section ends */
 }
