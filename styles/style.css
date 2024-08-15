@@ -28,7 +28,6 @@ header{
 
 .menu-icon{
     display: none;
-    /* color: #FFFFFF; */
 }
 
 .navbar{
@@ -38,7 +37,6 @@ header{
     align-items: center;
     margin: 0 auto;
     padding-top: 50px;
-    /* border: 1px solid rgb(48, 43, 43); */
 }
 
 .nav-links{
@@ -82,7 +80,6 @@ header{
 .banner{
     width: 80%;
     margin: 0 auto;
-    /* margin-top: 96px; */
 }
 
 .banner-container{
@@ -93,7 +90,6 @@ header{
 
 .banner-title{
     color: white;
-    /* border: 1px solid aliceblue; */
     width: 50%; 
     font-weight: 900;
     font-size: 4rem;
@@ -140,9 +136,9 @@ header{
 .banner-image{
     max-height: 580px;
 }
-/* banner section styles ends */
+/* Banner section styles ends */
 
-/* change section styles starts */
+/* Change section styles starts */
 .change-container{
     width: 80%;
     margin: 0 auto;
@@ -193,10 +189,10 @@ header{
     color: #FFFFFF;
     opacity: 50%;
 }
-/* change section styles ends */
+/* Change section styles ends */
 
 
-/* run section styles starts */
+/* Run section styles starts */
 
 .run-container{
     display: flex;
@@ -251,7 +247,7 @@ header{
     object-fit: none;
     object-position: 70% 33%;
 }
-/* run section styles ends */
+/* Run section styles ends */
 
 
 /* BMI section starts */
@@ -400,7 +396,7 @@ header{
 /* BMI section styles ends */
 
 
-/* Payment section styles stats */
+/* Challenge Section: Payment section styles stats */
     .payment{
     display: flex;
     justify-content: center;
@@ -477,7 +473,7 @@ header{
     background-color: #0056b3;
     }
 
-/* Payment section styles ends */
+/* Challenge Section: Payment section styles ends */
 
 
 
@@ -584,7 +580,7 @@ header{
 
 
 
-/* footer section styles starts */
+/* Footer section styles starts */
 .footer{
     margin-top: 88px;
     background-color: rgba(255, 255, 255, 0.1);
@@ -698,7 +694,7 @@ footer hr{
     /* Change section ends */
 
 
-    /* run section */
+    /* Run section */
     .run-container{
         flex-direction: column;
     }
@@ -763,7 +759,7 @@ footer hr{
     /* BMI section ends */
 
 
-    /* Payment section starts*/
+    /* Challenge Section: Payment section starts*/
     .payment-title{
     font-size: 2rem;
     text-align: center;
@@ -777,7 +773,7 @@ footer hr{
         flex-direction: column;
         width: 90%;
     }
-    /* Payment section ends */
+    /* Challenge Section: Payment section ends */
 
 
     /* Meet section starts */
