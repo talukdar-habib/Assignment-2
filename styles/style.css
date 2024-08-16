@@ -136,6 +136,68 @@ header{
 .banner-image{
     max-height: 580px;
 }
+
+.banner-box-container, .banner-box-container-two{
+    display: flex;
+    color: #FFFFFF;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 160px;
+    height: 80px;
+    background: rgba(48, 48, 48, 0.54);
+    backdrop-filter: blur(10px); 
+    position: absolute;
+    margin: -10% 50%;
+    border-radius: 12px;
+    padding-left: 10px;
+}
+
+.video-tutorial button{
+    background: none;
+    border: none;
+    color: white;
+    text-align: left;
+}
+
+.video-tutorial h2{
+    font-size: 1.5rem;
+}
+
+.video-tutorial p{
+    opacity: 65%;
+}
+
+.banner-box-container-two{
+    margin: -32% 70% ;
+    
+}
+.banner-box-container-two button{
+    background: none;
+    border: none;
+    color: white;
+    text-align: left;
+}
+.banner-box-container-two h1{
+    font-size: 2.5rem;
+}
+
+.banner-box-container-two p{
+    opacity: 65%;
+}
+
+.circle{
+    background-color: #E6533C;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.video-tutorial{
+    
+}
+
+
 /* Banner section styles ends */
 
 /* Change section styles starts */
@@ -668,9 +730,6 @@ footer hr{
 /* Media query for small devices */
 
 @media screen and (max-width: 576px) {
-    * {
-        border: 1px solid wheat;
-    }
     /* Header (nav & banner) section starts */
     .nav-links{
         display: none;
@@ -680,7 +739,7 @@ footer hr{
     }
 
     .banner-image img{
-        width: 100%;
+        width: 90%;
     }
 
     .banner-title{
@@ -689,9 +748,17 @@ footer hr{
         font-weight: 900;
         font-size: 2.2rem;
     }
+
+    .banner-box-container-two{
+        margin: -110% 40%;
+    }
     #menu-icon{
-        /* display: contents; */
+        display: contents;
         color: #FFFFFF;
+    }
+
+    .banner-box-container{
+        margin: -60% 2%;
     }
     /* Header (nav & banner) section ends */
 
