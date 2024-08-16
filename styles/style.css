@@ -193,10 +193,6 @@ header{
     height: 30px;
 }
 
-.video-tutorial{
-    
-}
-
 
 /* Banner section styles ends */
 
@@ -825,9 +821,6 @@ footer hr{
         margin-top: 40px;
     }
 
-    .bmi-table-container{
-        /* width: 80%; */
-    }
 
     .bmi-table-content{
         flex-direction: column;
