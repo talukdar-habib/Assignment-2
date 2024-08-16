@@ -26,7 +26,7 @@ header{
 }
 
 
-.menu-icon{
+#menu-icon{
     display: none;
 }
 
@@ -668,6 +668,9 @@ footer hr{
 /* Media query for small devices */
 
 @media screen and (max-width: 576px) {
+    * {
+        border: 1px solid wheat;
+    }
     /* Header (nav & banner) section starts */
     .nav-links{
         display: none;
@@ -675,14 +678,19 @@ footer hr{
     .banner-container{
         flex-direction: column;
     }
+
+    .banner-image img{
+        width: 100%;
+    }
+
     .banner-title{
         width: 70%;
         margin-top: 50px;
         font-weight: 900;
         font-size: 2.2rem;
     }
-    .menu-icon{
-        display: contents;
+    #menu-icon{
+        /* display: contents; */
         color: #FFFFFF;
     }
     /* Header (nav & banner) section ends */
@@ -697,6 +705,7 @@ footer hr{
     /* Run section */
     .run-container{
         flex-direction: column;
+        width: 70%;
     }
 
     .run-title{
@@ -742,11 +751,17 @@ footer hr{
         width: 110%;
         font-size: 1rem;
     }
+
     .calculate-bmi-title{
         width: 110%;
         font-size: 1rem;
         margin-top: 40px;
     }
+
+    .bmi-table-container{
+        /* width: 80%; */
+    }
+
     .bmi-table-content{
         flex-direction: column;
     }
@@ -771,7 +786,7 @@ footer hr{
 
     .payment-option{
         flex-direction: column;
-        width: 90%;
+        width: 80%;
     }
     /* Challenge Section: Payment section ends */
 
@@ -803,6 +818,11 @@ footer hr{
     .footer-content {
         flex-direction: column;
     }
+
+    .fitness-title{
+        font-size: 3rem;
+    }
+
     .footer-column-container{
         flex-direction: column;
         gap: 10px;
